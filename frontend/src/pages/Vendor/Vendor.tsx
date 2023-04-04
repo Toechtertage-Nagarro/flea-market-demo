@@ -157,9 +157,10 @@ export default function Vendor() {
                 0,
                 "Der Preis darf nicht unter 0 € liegen."
               ),
+              //Falsche Fehlermeldung
               email: Yup.string()
-                .email("Die E-Mail ist nicht valide.")
-                .required("Bitte gib eine E-Mail ein."),
+                .email("Die Telefonnummer ist nicht valide.")
+                .required("Bitte gib eine Telefonnummer ein."),
               name: Yup.string()
                 .max(30, "Maximal 30 Zeichen erlaubt.")
                 .required("Der Artikel muss einen Namen haben."),
@@ -185,7 +186,8 @@ export default function Vendor() {
                     onBlur={handleBlur}
                     id="name"
                     name="name"
-                    label="Name der Ware"
+                    //TODO Fehler eingebaut
+                    label="Name der Wahre"
                     variant="outlined"
                   />
                   <ErrorMessage

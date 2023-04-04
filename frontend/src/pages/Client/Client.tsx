@@ -17,13 +17,14 @@ export default function Client() {
   const [filteredItems, setFilteredItems] = useState(fleaArticles);
 
   const handleDeleteItem = (fleaItem: IFleaItem) => {
-    console.log(fleaItem.name);
-    const filteredFleaArticles = fleaArticles.filter((x) => {
-      return x.id !== fleaItem.id;
-    });
+    //TODO Bug eingebaut - > ware loeschen funktioniert nicht
+    //console.log(fleaItem.name);
+    //const filteredFleaArticles = fleaArticles.filter((x) => {
+    //  return x.id !== fleaItem.id;
+    //});
 
-    localStorage.setItem(fleaItemKey, JSON.stringify(filteredFleaArticles));
-    setFilteredItems([...filteredFleaArticles]);
+    //localStorage.setItem(fleaItemKey, JSON.stringify(filteredFleaArticles));
+    //setFilteredItems([...filteredFleaArticles]);
   };
 
   // Filter nach Preis (Warenpreis darf Filter nicht überschreiten)
@@ -71,7 +72,7 @@ export default function Client() {
             Schau doch mal ob etwas für dich dabei ist!
             <br />
             <br />
-            <Link className="nav-link" to="/vendor">
+            <Link className="nav-link" to="/">
               Willst du selber etwas verkaufen dann geht zur Artikelanlage
             </Link>
           </p>
