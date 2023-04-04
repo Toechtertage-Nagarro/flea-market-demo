@@ -1,0 +1,44 @@
+#root {
+  background-color: #13294b !important;
+}
+
+.home-title {
+  padding: 30px;
+  font-weight: 600;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-sections {
+  padding: 20px 50px;
+  color: #13294b;
+}
+
+.nav-sections > div {
+  margin-bottom: 10%;
+}
+
+.nav-sections > div > p {
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+.nav-link {
+  padding: 19px 24px;
+  border-radius: 32px;
+  background: #47d7ac;
+  color: #13294b;
+  text-decoration: none;
+  transition: all ease 300ms;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background: #badcd3;
+  color: #13294b;
+  transform: scale(1.1);
+}

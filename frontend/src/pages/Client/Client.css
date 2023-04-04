@@ -1,0 +1,106 @@
+#root {
+  background-color: white !important;
+}
+
+.MuiAccordionSummary-root:hover {
+  cursor: pointer;
+  background-color: #47d7ac52;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.MuiAccordionDetails-root {
+  border-top: 1px solid #c4c9d2;
+}
+
+.client-container-searchbar {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.searchbar-filters {
+  display: flex;
+}
+
+.accordion-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.mandatory-details-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.mandatory-title {
+  font-weight: bold;
+}
+
+.details-value {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.accordion-summary-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.summary-title {
+  color: #13294b;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.summary-title-second,
+.details-value {
+  color: #6c7689;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.client-container-description {
+  margin: 0px;
+  padding: 30px;
+}
+
+.delete-container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background-color: #ff005b8a;
+  color: white;
+  transition: all ease 300ms;
+  border-radius: 20px;
+  padding: 12px 24px;
+}
+
+.delete-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.delete-span {
+  margin-left: 8px;
+}
+
+.price-filter-container {
+  margin-right: 30px;
+}
+
+.summary-details-container {
+  width: 300px;
+  align-items: baseline;
+  display: flex;
+  justify-content: space-around;
+}
