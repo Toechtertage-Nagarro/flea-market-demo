@@ -56,7 +56,7 @@ export default function Client() {
   };
 
   useEffect(() => {}, [filteredItems]);
-
+//Bug eingefuegt - > Link zu willhaben.at 
   return (
     <StylesProvider injectFirst>
       <div className="client-container">
@@ -72,9 +72,10 @@ export default function Client() {
             Schau doch mal ob etwas für dich dabei ist!
             <br />
             <br />
-            <Link className="nav-link" to="/">
-              Willst du selber etwas verkaufen dann geht zur Artikelanlage
-            </Link>
+            <a className="nav-link" href="https://www.willhaben.at" target="_blank" rel="noopener noreferrer">
+        Willst du selber etwas verkaufen dann geht zur Artikelanlage
+        </a>
+
           </p>
         </div>
         <div className="client-container-searchbar">
