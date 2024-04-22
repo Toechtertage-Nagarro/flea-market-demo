@@ -72,9 +72,9 @@ export default function Client() {
             Schau doch mal ob etwas für dich dabei ist!
             <br />
             <br />
-            <a className="nav-link" href="https://www.willhaben.at" target="_blank" rel="noopener noreferrer">
-        Willst du selber etwas verkaufen dann geht zur Artikelanlage
-        </a>
+            <Link className="nav-link" to="/vendors">
+              Willst du selber etwas verkaufen dann geht zur Artikelanlage
+            </Link>
 
           </p>
         </div>

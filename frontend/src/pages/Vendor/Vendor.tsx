@@ -187,7 +187,7 @@ export default function Vendor() {
                     id="name"
                     name="name"
                     //TODO Fehler eingebaut
-                    label="Name der Wahre"
+                    label="Name der Ware"
                     variant="outlined"
                   />
                   <ErrorMessage
