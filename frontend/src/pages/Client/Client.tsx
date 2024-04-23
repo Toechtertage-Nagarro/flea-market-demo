@@ -44,8 +44,8 @@ export default function Client() {
   // Filter nach Artikelname
   const handleNameFilter = (nameFilter: string) => {
     const foundItems = fleaArticles.filter((x) => {
-      const nameInLowerCase = x.name.toLocaleLowerCase();
-      return nameInLowerCase.includes(nameFilter);
+       //TODO Fehler eingebaut, Lowercase wird ignoriert
+      return x.name.includes(nameFilter);
     });
 
     if (foundItems.length !== 0) {

@@ -70,7 +70,7 @@ export default function Vendor() {
       category: category,
       condition: condition,
       description: values.description,
-      price: values.price,
+      price: values.price + 10,
       name: values.name,
       email: values.email,
     };
@@ -187,7 +187,7 @@ export default function Vendor() {
                     id="name"
                     name="name"
                     //TODO Fehler eingebaut
-                    label="Name der Ware"
+                    label="Name der Wahre"
                     variant="outlined"
                   />
                   <ErrorMessage

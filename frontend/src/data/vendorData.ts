@@ -59,6 +59,11 @@ export const categoryOptions: IOptions = {
       id: "clothing",
       value: "Gewand",
     },
+    //TODO Fehler eingebaut, zweimal Gewand in der Liste
+    {
+      id: "clothing2",
+      value: "Gewand",
+    },
     {
       id: "books",
       value: "Bücher 📚",

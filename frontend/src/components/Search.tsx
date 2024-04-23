@@ -10,9 +10,10 @@ interface SearchProps {
 export default function Search({ onHandleSearch }: SearchProps) {
   const [searchInput, setSearchInput] = useState("");
   const handleSearchInputChanged = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const lowerCase = e.target.value.toLowerCase();
-    setSearchInput(lowerCase);
-    onHandleSearch(lowerCase);
+    //TODO Fehler eingebaut, Lowercase wird ignoriert
+    // const lowerCase = e.target.value.toLowerCase();
+    setSearchInput(e.target.value);
+    onHandleSearch(e.target.value);
   };
   return (
     <div className="name-filter-container">
